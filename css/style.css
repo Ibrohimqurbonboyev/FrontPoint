@@ -446,9 +446,36 @@ body {
   .discover {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
   }
 
-  .footer-text p {
-    display: none;
+  .img-discover {
+    margin: 0;
+    display: flex;
+    padding-right: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .serving {
+    margin: 0;
+    padding: 0;
+  }
+
+  .our {
+    padding-top: 5px;
+    padding-left: 9px;
+    margin: 1px;
+  }
+
+  .our-container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-text {
+    flex-direction: column;
   }
 }
